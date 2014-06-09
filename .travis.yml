@@ -10,3 +10,6 @@ before_script:
   - npm install https://github.com/mde/utilities/archive/master.tar.gz
 
 script: node_modules/jake/bin/cli.js test --trace
+
+notifications:
+  email: false
