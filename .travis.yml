@@ -3,6 +3,8 @@ node_js:
   - "0.10"
   #- "0.8"
 
+build_image: shippable/minv2
+
 before_script:
   - rm -R node_modules/model
   - rm -R node_modules/utilities
